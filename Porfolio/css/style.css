@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+    height: 100vh; 
+    overflow-y: scroll; 
+    scroll-snap-type: y mandatory;
+    scroll-behavior:smooth;
+}
+
+.profile {
+    min-width: 400px;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    align-items: center;
+}
+
+.profile__box{
+    text-align: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    justify-content: center;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+#info1, #info2,#info3,#info4,#info5{
+    scroll-margin-top: 0;
+}
+
