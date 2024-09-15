@@ -160,9 +160,9 @@ body {
 
 .data__containers{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 0 auto;
-    width: 900px;
+    min-width: 550px;
 }
 
 .data__container{
@@ -189,4 +189,158 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.green{
+    color: rgb(127, 255, 77);
+}
+
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.formacion__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formacion__container--div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.formacion__article {
+    padding: 0;
+    width: 300px;
+    position: relative;
+    text-align: left;
+    border-left: 1px solid rgb(127, 255, 77);
+    padding-left: 20px;
+}
+
+.formacion__icono {
+    position: absolute;
+    top: -40px;
+    left: -25px;
+    background-color: rgb(127, 255, 77);
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.formacion__icono i {
+    color: #121212;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.formacion__contenido {
+    margin-top: 0;
+}
+
+.año {
+    background-color: rgba(112, 112, 112, 0.7);
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    max-width: 70px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.miPortfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.portfolio__div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio__img{
+    width: 280px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.contacto__div{
+    font-size: 14px;
+    margin: 5px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.contacto__div p {
+    margin: 5px;
+}
+
+.contacto__div i {
+    color: rgb(66, 233, 0);
+    margin-right: 10px;
+    max-width: 400px;
+}
+
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+.contacto__form input,
+.contacto__form textarea {
+    background-color: rgb(39, 39, 39);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contacto__form button {
+    background-color: rgba(253, 253, 253, 0.2);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto__form button i {
+    margin-left: 5px;
+    color: rgb(127, 255, 77);
+}
+
+.contacto__form button:hover {
+    background-color: rgba(127, 255, 77, 0.3);
 }
