@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgb(51, 51, 51);
     color: white;
     margin: 0;
     font-variant: small-caps;
@@ -11,7 +11,6 @@ body {
 
 .container {
     display: flex;
-    justify-content: center; 
     margin: 0 auto;
     height: 100vh; 
     overflow-y: scroll; 
@@ -29,13 +28,16 @@ body {
     height: 100vh;
     align-items: center;
     text-align: center;
+    background-color: rgb(87, 87, 87);
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
 }
 
 .profile__boximg--img{
     width: 100px;
     border-radius: 100%; 
     border: 5px solid rgba(127, 255, 77, 0.8);
-    box-shadow: 3px 3px 20px rgba(127, 255, 77, 0.3);
+    box-shadow: 5px 5px 20px rgba(127, 255, 77, 0.5);
     margin-bottom: 0;
 }
 
@@ -66,7 +68,7 @@ body {
 }
 
 .profile__div:hover{
-    background-color: rgba(127, 255, 77, 0.5);
+    background-color: rgba(127, 255, 77, 0.6);
 }
 
 .info{
@@ -75,6 +77,7 @@ body {
     max-width: 1300px;
     justify-content: center;
     height: 100vh;
+    margin: 50px;
     scroll-snap-align: start;
 }
 #info1, #info2,#info3,#info4,#info5{
@@ -87,8 +90,17 @@ body {
     font-size: 20px;
 }
 
+.data{
+    margin: 0 auto;
+}
+
 .data__hi{
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 0;
+}
+
+.active {
+    border: 2px solid rgb(127, 255, 77); /* Resalta la sección activa */
+    transition: border 0.3s ease;
 }
