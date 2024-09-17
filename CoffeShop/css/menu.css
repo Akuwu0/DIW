@@ -1,3 +1,7 @@
+.container__blogs,.container__nosotros,.container__clientes{
+    width: 1200px;
+    margin: 0 auto;
+}
 .blogs{
  display: flex;
  justify-content: space-between;
