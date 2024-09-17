@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Ribera Coffee...</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <a href="#home" class="header__logo">
+          <img src="./assets/images/logo.png" alt="" />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#inicio">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#blogs">Blogs</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#cliente">Clientes</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#menu">Menú</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Review</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <section class="header__icons">
+          <i class="header__icon fas fa-search" id="header_search"></i>
+          <i
+            class="header__icon fa-solid fa-cart-shopping"
+            id="header_icon"
+          ></i>
+        </section>
+
+        <!--   <input class="header__form" id="header_form" type="search" placeholder="Buscar..." /> -->
+
+        <!-- Desplegable de la derecha -->
+        <section class="header-items" id="header_items">
+          <article class="card-item">
+            <span class="fas fa-times"></span>
+            <img
+              class="card__img"
+              src="./assets/images/cart-item-1.png"
+              alt=""
+            />
+            <div class="content">
+              <h3 class="card__title">Arábica</h3>
+              <div class="card__price">12.99 €</div>
+            </div>
+          </article>
+
+          <article class="card-item">
+            <span class="fas fa-times"></span>
+            <img
+              class="card__img"
+              src="./assets/images/cart-item-2.png"
+              alt=""
+            />
+            <div class="content">
+              <h3 class="card__title">Robusta</h3>
+              <div class="card__price">15.99 €</div>
+            </div>
+          </article>
+
+          <article class="card-item">
+            <span class="fas fa-times"></span>
+            <img
+              class="card__img"
+              src="./assets/images/cart-item-3.png"
+              alt=""
+            />
+            <div class="content">
+              <h3 class="card__title">Libérica</h3>
+              <div class="card__price">25.00 €</div>
+            </div>
+          </article>
+
+          <article class="card-item">
+            <span class="fas fa-times"></span>
+            <img
+              class="card__img"
+              src="./assets/images/cart-item-4.png"
+              alt=""
+            />
+            <div class="content">
+              <h3 class="card__title">Excelsa</h3>
+              <div class="card__price">10.50 €</div>
+            </div>
+          </article>
+          <a href="#" class="header-items__btn">Comprar</a>
+        </section>
+      </header>
+
+      <!-- Sección de inicio -->
+      <section class="inicio" id="inicio">
+        <div class="inicio__container-text">
+          <h3 class="inicio__title">
+            El café es un bálsamo para el corazón y el espíritu.
+          </h3>
+          <p class="inicio__text">
+            La vida es como una taza de café. Depende de cómo la preparas, pero
+            sobre todo en cómo la tomas.
+          </p>
+          <a href="#" class="inicio__btn">Consigue el tuyo</a>
+        </div>
+      </section>
+      <!-- ---------------------------------------- -->
+      <!-- Sección Blog -->
+      <section class="container__blogs" id="blogs">
+        <h2 class="title">
+          Nuestros
+          <span class="title__color">Blogs</span>
+        </h2>
+
+        <section class="blogs">
+          <article class="blogs-card">
+            <div class="blogs-card__img-container">
+              <img
+                class="blogs-card__img"
+                src="./assets/images/blog-1.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="blogs-card__content">
+              <h3 class="blogs-card__title">Sabroso y Refrescante</h3>
+              <span class="blogs-card__user">Admin / 21 de mayo, 2022</span>
+              <p class="blogs-card__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                dicta.
+              </p>
+              <a href="#" class="blogs-card__btn">Leer mas ...</a>
+            </div>
+          </article>
+
+          <article class="blogs-card">
+            <div class="blogs-card__img-container">
+              <img
+                class="blogs-card__img"
+                src="./assets/images/blog-2.jpeg"
+                alt=""
+              />
+            </div>
+
+            <div class="blogs-card__content">
+              <h3 class="blogs-card__title">Sabroso y Refrescante</h3>
+              <span class="blogs-card__user">Admin / 21 de mayo, 2022</span>
+              <p class="blogs-card__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                dicta.
+              </p>
+              <a href="#" class="blogs-card__btn">Leer mas ...</a>
+            </div>
+          </article>
+
+          <article class="blogs-card">
+            <div class="blogs-card__img-container">
+              <img
+                class="blogs-card__img"
+                src="./assets/images/blog-3.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="blogs-card__content">
+              <h3 class="blogs-card__title">Sabroso y Refrescante</h3>
+              <span class="blogs-card__user">Admin / 21 de mayo, 2022</span>
+              <p class="blogs-card__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                dicta.
+              </p>
+              <a href="#" class="blogs-card__btn">Leer más ...</a>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <!-- Secció Sobre nosotros -->
+      <section class="container__nosotros" id="nosotros">
+        <h2 class="title">
+          <span class="title__color">Sobre</span>
+          Nosotros
+        </h2>
+        <section class="nosotros" id="nosotros">
+          <section class="nosotros__container-img">
+            <img
+              class="nosotros__img"
+              src="./assets/images/about-img.jpeg"
+              alt=""
+            />
+          </section>
+
+          <section class="nosotros__contenido">
+            <div>
+              <h3 class="nosotros__title">
+                Qué hace nuestro café especial....
+              </h3>
+              <p class="nosotros__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae
+                ratione a officiis id temporibus autem? Quod nemo facilis
+                cupiditate. Ex, vel?
+              </p>
+              <p class="nosotros__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                amet enim quod veritatis, nihil voluptas culpa! Neque
+                consectetur obcaecati sapiente?
+              </p>
+            </div>
+            <a href="#" class="nosotros__btn">Más información ...</a>
+          </section>
+        </section>
+      </section>
+
+      <!-- Sección Opinion clientes -->
+      <section class="container__clientes" id="clientes">
+        <h2 class="title">
+          <span class="title__color">Opinión</span>
+          Clientes
+        </h2>
+
+        <section class="cliente" id="cliente">
+          <article class="cliente-card">
+            <img
+              class="cliente-card__quote"
+              src="./assets/images/quote-img.png"
+              alt=""
+            />
+            <p class="cliente-card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              nulla sit libero nemo fuga sequi nobis? Necessitatibus aut
+              laborum, nisi quas eaque laudantium consequuntur iste ex aliquam
+              minus vel? Nemo.
+            </p>
+            <img
+              class="cliente-card__img"
+              src="./assets/images/pic-1.png"
+              alt=""
+            />
+            <h3 class="cliente-card__name">john deo</h3>
+            <div class="cliente-card__stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </article>
+
+          <article class="cliente-card">
+            <img
+              class="cliente-card__quote"
+              src="./assets/images/quote-img.png"
+              alt=""
+            />
+            <p class="cliente-card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              nulla sit libero nemo fuga sequi nobis? Necessitatibus aut
+              laborum, nisi quas eaque laudantium consequuntur iste ex aliquam
+              minus vel? Nemo.
+            </p>
+            <img
+              class="cliente-card__img"
+              src="./assets/images/pic-2.png"
+              alt=""
+            />
+            <h3 class="cliente-card__name">john deo</h3>
+            <div class="cliente-card__stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </article>
+
+          <article class="cliente-card">
+            <img
+              class="cliente-card__quote"
+              src="./assets/images/quote-img.png"
+              alt=""
+            />
+            <p class="cliente-card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              nulla sit libero nemo fuga sequi nobis? Necessitatibus aut
+              laborum, nisi quas eaque laudantium consequuntur iste ex aliquam
+              minus vel? Nemo.
+            </p>
+            <img
+              class="cliente-card__img"
+              src="./assets/images/pic-3.png"
+              alt=""
+            />
+            <h3 class="cliente-card__name">john deo</h3>
+            <div class="cliente-card__stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <!-- Sección menú -->
+      <section class="container__menus" id="menu">
+        <h2 class="title">
+          Nuestro
+          <span class="title__color">Menú</span>
+        </h2>
+
+        <section class="menus" id="menu">
+          <article class="menu-card">
+            <img
+              class="menu-card__img"
+              src="./assets/images/menu-4.png"
+              alt=""
+            />
+            <h3 class="menu-card__text">Arábico</h3>
+            <div class="menu-card__price">
+              18.50 €
+              <span class="menu-card__line">23.00 €</span>
+            </div>
+            <a href="#" class="menu-card__btn">Añadir al carro</a>
+          </article>
+
+          <article class="menu-card">
+            <img
+              class="menu-card__img"
+              src="./assets/images/menu-5.png"
+              alt=""
+            />
+            <h3 class="menu-card__text">Libérica</h3>
+            <div class="menu-card__price">
+              17.00 €
+              <span class="menu-card__line">19.50 €</span>
+            </div>
+            <a href="#" class="menu-card__btn">Añadir al carro</a>
+          </article>
+
+          <article class="menu-card">
+            <img
+              class="menu-card__img"
+              src="./assets/images/menu-6.png"
+              alt=""
+            />
+            <h3 class="menu-card__text">Robusta</h3>
+            <div class="menu-card__price">
+              15.99 €
+              <span class="menu-card__line">20.99 €</span>
+            </div>
+            <a href="#" class="menu-card__btn">Añadir al carro</a>
+          </article>
+        </section>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <section class="footer__redes">
+          <a href="#" class="fab fa-facebook-f footer__icon"></a>
+          <a href="#" class="fab fa-twitter footer__icon"></a>
+          <a href="#" class="fab fa-instagram footer__icon"></a>
+          <a href="#" class="fab fa-linkedin footer__icon"></a>
+          <a href="#" class="fab fa-pinterest footer__icon"></a>
+        </section>
+
+        <hr class="footer__line" />
+
+        <p class="footer__footer">
+          <span class="title__color">Departamento de Informática</span> - Ies
+          Ribera del Tajo
+        </p>
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
